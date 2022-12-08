@@ -129,7 +129,7 @@ header .wrapp {
 .phone:hover {
   color: var(--gray);
   background-color: var(--white);
-  border: 2px solid green;
+  border: 1px solid green;
 }
 
 .phone span {
