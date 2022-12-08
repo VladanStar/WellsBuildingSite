@@ -2,9 +2,9 @@
 
 :root {
   --orange: #f58220;
-  --c-gray: #42515a;
-  --c-white: #fff;
-  --f-titillium: "Titillium Web", sans-serif;
+  --gray: #42515a;
+  --white: #fff;
+  --titillium: "Titillium Web", sans-serif;
 }
 
 * {
@@ -18,11 +18,11 @@ a {
 }
 
 body {
-  font-family: var(--f-titillium);
+  font-family: var(--titillium);
 }
 
 h1 {
-  color: var(--c-white);
+  color: var(--white);
   text-transform: uppercase;
   font-size: 3em;
 }
@@ -68,7 +68,7 @@ header .wrapp {
 .nav-head a {
   padding: 5px 10px;
   font-size: 1.2em;
-  color: var(--c-gray);
+  color: var(--gray);
 }
 
 .nav-head a:hover {
@@ -121,15 +121,15 @@ header .wrapp {
 .phone {
   background-color: var(--orange);
   padding: 10px 20px;
-  color: var(--c-white);
+  color: var(--white);
 }
 
 .phone:hover {
-  color: var(--c-gray);
+  color: var(--gray);
 }
 
 .phone span {
-  color: var(--c-gray);
+  color: var(--gray);
   margin-right: 3px;
 }
 /*========= Main ===============*/
@@ -158,7 +158,7 @@ main h1 {
   display: flex;
   flex-direction: row;
   margin-top: -6px;
-  background-color: var(--c-white);
+  background-color: var(--white);
 }
 
 .info {
@@ -174,7 +174,7 @@ main h1 {
 
 .info p {
   padding: 0 40px;
-  color: var(--c-gray);
+  color: var(--gray);
 }
 
 /*=========== Section one - Services ==============*/
@@ -208,7 +208,7 @@ main h1 {
 .box {
   padding: 20px;
   padding-bottom: 50px;
-  color: var(--c-white);
+  color: var(--white);
 }
 
 .box h2 {
@@ -217,7 +217,7 @@ main h1 {
 }
 
 .box1 {
-  background-color: var(--c-gray);
+  background-color: var(--gray);
 }
 
 .box2 {
@@ -247,7 +247,7 @@ main h1 {
 .section-2-home p {
   text-align: center;
   padding: 100px;
-  color: var(--c-white);
+  color: var(--white);
 }
 /*========= Section three ============*/
 
@@ -255,7 +255,7 @@ main h1 {
   background-color: #fff;
   text-align: center;
   padding: 50px 0 70px;
-  color: var(--c-gray);
+  color: var(--gray);
 }
 
 .section-3 p {
@@ -270,7 +270,7 @@ main h1 {
   margin-top: -3px;
   display: flex;
   align-items: center;
-  background-color: var(--c-white);
+  background-color: var(--white);
   padding: 50px 80px;
 }
 
@@ -333,7 +333,7 @@ textarea {
   grid-column: 2/3;
   padding: 9px;
   text-transform: uppercase;
-  color: var(--c-white);
+  color: var(--white);
   background-image: url('../img/bg_submit.png');
   background-repeat: repeat-x;
   margin: 10px 0;
@@ -363,17 +363,17 @@ footer p {
   display: flex;
   justify-content: center;
   padding-bottom: 40px;
-  color: var(--c-white);
+  color: var(--white);
 }
 
 .foot a {
   text-transform: uppercase;
   padding: 2px 15px;
-  color: var(--c-white);
+  color: var(--white);
 }
 
 .foot a:hover {
-  color: var(--c-gray);
+  color: var(--gray);
 }
 
 footer p span {
