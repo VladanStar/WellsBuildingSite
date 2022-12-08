@@ -1,14 +1,11 @@
 /*====== General =======*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 
 :root {
   --orange: #f58220;
   --gray: #42515a;
   --white: #fff;
-  --roboto: 'Roboto',
-    sans-serif;
-
+  --roboto: "Roboto", sans-serif;
 }
 
 * {
@@ -51,7 +48,7 @@ textarea:focus {
 
 header {
   width: 100%;
-  background-image: url('../img/bg_body.png');
+  background-image: url("../img/bg_body.png");
   border-bottom: 3px solid var(--orange);
 }
 
@@ -112,7 +109,7 @@ header .wrapp {
 .nav-up input[type="text"] {
   border: none;
   padding: 5px 0;
-  background-image: url('../img/btn_search.png');
+  background-image: url("../img/btn_search.png");
   background-repeat: no-repeat;
   background-position: 140px 7px;
   background-size: 16px 16px;
@@ -131,6 +128,8 @@ header .wrapp {
 
 .phone:hover {
   color: var(--gray);
+  background-color: var(--white);
+  border: 2px solid green;
 }
 
 .phone span {
@@ -187,7 +186,7 @@ main h1 {
 
 .brick {
   margin-top: 100px;
-  background-image: url('../img/bg_title.png');
+  background-image: url("../img/bg_title.png");
   background-repeat: no-repeat;
   padding: 65px;
   position: relative;
@@ -245,7 +244,7 @@ main h1 {
 /*========== Section two =================*/
 
 .section-2-home {
-  background-image: url('../img/home_content.png');
+  background-image: url("../img/home_content.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -313,7 +312,7 @@ main h1 {
 }
 
 .cnt-form {
-  background-image: url('../img/home_content.png');
+  background-image: url("../img/home_content.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
@@ -340,7 +339,7 @@ textarea {
   padding: 9px;
   text-transform: uppercase;
   color: var(--white);
-  background-image: url('../img/bg_submit.png');
+  background-image: url("../img/bg_submit.png");
   background-repeat: repeat-x;
   margin: 10px 0;
 }
@@ -348,14 +347,14 @@ textarea {
 .cnt-form input {
   width: 99%;
   height: 37px;
-  background-image: url('../img/bg_input.png');
+  background-image: url("../img/bg_input.png");
   background-repeat: repeat-x;
   margin-bottom: 20px;
 }
 /*========== Footer ==============*/
 
 footer .wrapp {
-  background-image: url('../img/bg_orange.png');
+  background-image: url("../img/bg_orange.png");
 }
 
 nav.foot {
@@ -392,113 +391,109 @@ footer p span:first-child::after {
 }
 /*============ Media Queries=====================*/
 
-@media only screen and (max-width : 800px) {
+@media only screen and (max-width: 800px) {
+  header .wrapp {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
 
-    header .wrapp {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-    }
+  main h1 {
+    padding: 0px 50px;
+  }
 
-    main h1 {
-        padding: 0px 50px;
-    }
+  .nav-up {
+    display: none;
+  }
 
-    .nav-up {
-        display: none;
-    }
+  .logo {
+    margin-top: 10px;
+  }
 
-    .logo {
-        margin-top: 10px;
-    }
+  .section-1-home {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .section-1-home {
-        display: flex;
-        flex-direction: column;
-    }
+  .section-2-home p {
+    padding: 30px;
+  }
 
-    .section-2-home p {
-        padding: 30px;
-    }
+  .section-3 p {
+    padding: 30px 30px 0 30px;
+  }
 
-    .section-3 p {
-        padding: 30px 30px 0 30px;
-    }
+  .section-3 h2 {
+    padding: 0 30px;
+  }
 
-    .section-3 h2 {
-        padding: 0 30px;
-    }
+  nav.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
-    nav.foot {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
+  .section-1-serv {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .section-1-serv {
-        display: flex;
-        flex-direction: column;
-    }
+  .cnt-info {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .cnt-info {
-        display: flex;
-        flex-direction: column;
-    }
+  .address {
+    text-align: center;
+    margin-bottom: 10px;
+  }
 
-    .address {
-        text-align: center;
-        margin-bottom: 10px;
-    }
+  .brick {
+    margin-top: 180px;
+  }
 
-
-    .brick {
-        margin-top: 180px;
-    }
-
-    .cnt-form {
-        display: flex;
-        flex-direction: column;
-    }
+  .cnt-form {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 550px) {
+  .logo {
+    transform: scale(0.7);
+  }
 
-    .logo {
-        transform: scale(0.7);
-    }
+  h2 {
+    transform: scale(0.9);
+  }
 
-    h2 {
-        transform: scale(0.9);
-    }
+  .nav-head {
+    transform: scale(0.9);
+    display: flex;
+    flex-direction: column;
+  }
 
-    .nav-head {
-        transform: scale(0.9);
-        display: flex;
-        flex-direction: column;
-    }
+  main h1 {
+    transform: scale(0.6);
+    padding: 0;
+  }
 
+  .address {
+    max-width: 100%;
+  }
 
-    main h1 {
-        transform: scale(0.6);
-        padding: 0;
-    }
+  .tel {
+    margin-top: 20px;
+    margin-left: -10px;
+  }
 
-    .address {
-        max-width: 100%;
-    }
+  .brick {
+    margin-top: 110px;
+  }
 
-    .tel {
-        margin-top: 20px;
-        margin-left: -10px;
-    }
-
-    .brick {
-        margin-top: 110px;
-    }
-
-    .section-3 .h2-cnt {
-        padding: 0px;
-        transform: scale(0.8);
-    }
+  .section-3 .h2-cnt {
+    padding: 0px;
+    transform: scale(0.8);
+  }
 }
