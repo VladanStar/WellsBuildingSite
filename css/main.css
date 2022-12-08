@@ -238,3 +238,16 @@ main h1 {
 .box4 {
     background-color: var(--c-orange);
 }
+/*========== Section two =================*/
+
+.section-2-home {
+    background-image: url(../img/home_content.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-2-home p {
+    text-align: center;
+    padding: 100px;
+    color: var(--c-white);
+}
