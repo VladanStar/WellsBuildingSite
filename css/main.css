@@ -1,11 +1,11 @@
 /*====== General =======*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
 
 :root {
   --orange: #f58220;
   --gray: #42515a;
   --white: #fff;
-  --roboto: "Roboto", sans-serif;
+--titillium: 'Titillium Web', sans-serif;
 }
 
 * {
@@ -19,7 +19,7 @@ a {
 }
 
 body {
-  font-family: var(--roboto);
+  font-family: var(--titillium);
 }
 
 h1 {
@@ -94,6 +94,29 @@ header .wrapp {
   left: 50%;
   transform: translate(-50%);
 }
+.dropdown {
+  position: relative;
+}
+
+.dropdown a {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--white);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  padding: 5px 15px;
+  font-size: 1em;
+}
 .nav-up {
   display: flex;
   flex-direction: row;
@@ -119,6 +142,7 @@ header .wrapp {
   padding: 0 10px;
   margin-right: 10px;
 }
+
 
 .phone {
   background-color: var(--orange);
