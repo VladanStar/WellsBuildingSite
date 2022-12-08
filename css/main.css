@@ -280,18 +280,18 @@ main h1 {
 }
 /*========= Section three ============*/
 
-.section-3 {
+.section-three {
   background-color: #fff;
   text-align: center;
   padding: 50px 0 70px;
   color: var(--gray);
 }
 
-.section-3 p {
+.section-three p {
   padding: 0 150px;
 }
 
-.section-3 h2 {
+.section-three h2 {
   margin-top: 10px;
 }
 /*============ Contact ===============*/
