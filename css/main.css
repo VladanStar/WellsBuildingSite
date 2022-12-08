@@ -251,3 +251,19 @@ main h1 {
     padding: 100px;
     color: var(--c-white);
 }
+/*========= Section three ============*/
+
+.section-3 {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0 70px;
+    color: var(--c-gray);
+}
+
+.section-3 p {
+    padding: 0 150px;
+}
+
+.section-3 h2 {
+    margin-top: 10px;
+}
