@@ -183,7 +183,7 @@ main h1 {
 }
 /*======== Section one ============*/
 
-.section-1-home {
+.section-one-home {
   display: flex;
   flex-direction: row;
   margin-top: -6px;
@@ -223,7 +223,7 @@ main h1 {
   bottom: 20px;
 }
 
-.section-1-serv {
+.section-one-serv {
   width: 100%;
   margin-top: -3px;
   background-color: #fff;
@@ -434,20 +434,20 @@ footer p span:first-child::after {
     margin-top: 10px;
   }
 
-  .section-1-home {
+  .section-one-home {
     display: flex;
     flex-direction: column;
   }
 
-  .section-2-home p {
+  .section-two-home p {
     padding: 30px;
   }
 
-  .section-3 p {
+  .section-three p {
     padding: 30px 30px 0 30px;
   }
 
-  .section-3 h2 {
+  .section-three h2 {
     padding: 0 30px;
   }
 
@@ -458,7 +458,7 @@ footer p span:first-child::after {
     flex-wrap: wrap;
   }
 
-  .section-1-serv {
+  .section-one-serv {
     display: flex;
     flex-direction: column;
   }
@@ -516,7 +516,7 @@ footer p span:first-child::after {
     margin-top: 110px;
   }
 
-  .section-3 .h2-cnt {
+  .section-three .h2-cnt {
     padding: 0px;
     transform: scale(0.8);
   }
