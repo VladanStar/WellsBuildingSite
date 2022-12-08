@@ -267,13 +267,13 @@ main h1 {
 }
 /*========== Section two =================*/
 
-.section-2-home {
+.section-two-home {
   background-image: url("../img/home_content.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.section-2-home p {
+.section-two-home p {
   text-align: center;
   padding: 150px;
   color: var(--white);
