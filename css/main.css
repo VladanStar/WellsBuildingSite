@@ -44,3 +44,92 @@ textarea:focus {
     box-shadow: none;
     border: transparent;
 }
+/*========== Header ============*/
+
+header {
+    width: 100%;
+    background-image: url(../img/bg_body.png);
+    border-bottom: 3px solid var(--c-orange);
+}
+
+header .wrapp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nav-head a {
+    padding: 5px 10px;
+    font-size: 1.2em;
+    color: var(--c-gray);
+}
+
+.nav-head a:hover {
+    color: var(--c-orange);
+}
+
+.nav-head>a {
+    position: relative;
+}
+
+.nav-head>a:hover:after,
+.nav-head>a.active:after,
+.nav-head>div>a:hover:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid var(--c-orange);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.nav-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-up a img {
+    padding: 5px;
+}
+
+.nav-up input[type=text] {
+    border: none;
+    padding: 5px 0;
+    background-image: url(../img/btn_search.png);
+    background-repeat: no-repeat;
+    background-position: 140px 7px;
+    background-size: 16px 16px;
+    font-size: 1.1em;
+    width: 170px;
+    height: 30px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+.phone {
+    background-color: var(--c-orange);
+    padding: 10px 20px;
+    color: var(--c-white);
+}
+
+.phone:hover {
+    color: var(--c-gray);
+}
+
+.phone span {
+    color: var(--c-gray);
+    margin-right: 3px;
+}
