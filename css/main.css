@@ -348,3 +348,41 @@ textarea {
     background-repeat: repeat-x;
     margin-bottom: 20px;
 }
+/*========== Footer ==============*/
+
+footer .wrapp {
+    background-image: url(../img/bg_orange.png);
+}
+
+nav.foot {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    color: var(--c-white);
+}
+
+.foot a {
+    text-transform: uppercase;
+    padding: 2px 15px;
+    color: var(--c-white);
+}
+
+.foot a:hover {
+    color: var(--c-gray);
+}
+
+footer p span {
+    padding: 0 5px;
+}
+
+footer p span:first-child::after {
+    content: "I";
+    margin-left: 10px;
+}
