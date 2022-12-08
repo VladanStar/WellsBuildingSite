@@ -390,3 +390,115 @@ footer p span:first-child::after {
   content: "I";
   margin-left: 10px;
 }
+/*============ Media Queries=====================*/
+
+@media only screen and (max-width : 800px) {
+
+    header .wrapp {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    main h1 {
+        padding: 0px 50px;
+    }
+
+    .nav-up {
+        display: none;
+    }
+
+    .logo {
+        margin-top: 10px;
+    }
+
+    .section-1-home {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-2-home p {
+        padding: 30px;
+    }
+
+    .section-3 p {
+        padding: 30px 30px 0 30px;
+    }
+
+    .section-3 h2 {
+        padding: 0 30px;
+    }
+
+    nav.foot {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .section-1-serv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cnt-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .address {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+
+    .brick {
+        margin-top: 180px;
+    }
+
+    .cnt-form {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .logo {
+        transform: scale(0.7);
+    }
+
+    h2 {
+        transform: scale(0.9);
+    }
+
+    .nav-head {
+        transform: scale(0.9);
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    main h1 {
+        transform: scale(0.6);
+        padding: 0;
+    }
+
+    .address {
+        max-width: 100%;
+    }
+
+    .tel {
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+
+    .brick {
+        margin-top: 110px;
+    }
+
+    .section-3 .h2-cnt {
+        padding: 0px;
+        transform: scale(0.8);
+    }
+}
