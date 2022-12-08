@@ -1,0 +1,46 @@
+
+/*====== General =======*/
+
+:root {
+    --c-orange: #f58220;
+    --c-gray: #42515a;
+    --c-white: #fff;
+    --f-titillium: 'Titillium Web', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--f-titillium);
+}
+
+h1 {
+    color: var(--c-white);
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+.wrapp {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: none;
+    border: transparent;
+}
