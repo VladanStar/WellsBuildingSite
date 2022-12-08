@@ -47,7 +47,7 @@ textarea:focus {
 
 header {
   width: 100%;
-  background-image: url(../img/bg_body.png);
+  background-image: url('../img/bg_body.png');
   border-bottom: 3px solid var(--c-orange);
 }
 
@@ -107,7 +107,7 @@ header .wrapp {
 .nav-up input[type="text"] {
   border: none;
   padding: 5px 0;
-  background-image: url(../img/btn_search.png);
+  background-image: url('../img/btn_search.png');
   background-repeat: no-repeat;
   background-position: 140px 7px;
   background-size: 16px 16px;
@@ -181,7 +181,7 @@ main h1 {
 
 .brick {
   margin-top: 100px;
-  background-image: url(../img/bg_title.png);
+  background-image: url('../img/bg_title.png');
   background-repeat: no-repeat;
   padding: 65px;
   position: relative;
@@ -239,7 +239,7 @@ main h1 {
 /*========== Section two =================*/
 
 .section-2-home {
-  background-image: url(../img/home_content.png);
+  background-image: url('../img/home_content.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -307,7 +307,7 @@ main h1 {
 }
 
 .cnt-form {
-  background-image: url(../img/home_content.png);
+  background-image: url('../img/home_content.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
@@ -334,7 +334,7 @@ textarea {
   padding: 9px;
   text-transform: uppercase;
   color: var(--c-white);
-  background-image: url(../img/bg_submit.png);
+  background-image: url('../img/bg_submit.png');
   background-repeat: repeat-x;
   margin: 10px 0;
 }
@@ -342,14 +342,14 @@ textarea {
 .cnt-form input {
   width: 99%;
   height: 37px;
-  background-image: url(../img/bg_input.png);
+  background-image: url('../img/bg_input.png');
   background-repeat: repeat-x;
   margin-bottom: 20px;
 }
 /*========== Footer ==============*/
 
 footer .wrapp {
-  background-image: url(../img/bg_orange.png);
+  background-image: url('../img/bg_orange.png');
 }
 
 nav.foot {
