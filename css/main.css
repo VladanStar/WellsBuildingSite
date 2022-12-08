@@ -267,3 +267,84 @@ main h1 {
 .section-3 h2 {
     margin-top: 10px;
 }
+/*============ Contact ===============*/
+.cnt-info {
+    margin-top: -3px;
+    display: flex;
+    align-items: center;
+    background-color: var(--c-white);
+    padding: 50px 80px;
+}
+
+.address {
+    max-width: 33%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.address p::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f3c5";
+    display: inline-block;
+    padding-right: 10px;
+    margin-left: -22px;
+    vertical-align: middle;
+    font-weight: 900;
+    color: var(--c-orange);
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+.tel p::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f095";
+    display: inline-block;
+    padding-right: 10px;
+    vertical-align: middle;
+    font-weight: 900;
+    color: var(--c-orange);
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+.cnt-form {
+    background-image: url(../img/home_content.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+    padding: 10px;
+    color: var(--c-orange);
+}
+
+label[for=message] {
+    align-self: end;
+}
+
+textarea {
+    grid-column: 1/4;
+    padding: 40px 0;
+}
+
+.cnt-form a {
+    text-align: center;
+    grid-row: 5/6;
+    grid-column: 2/3;
+    padding: 9px;
+    text-transform: uppercase;
+    color: var(--c-white);
+    background-image: url(../img/bg_submit.png);
+    background-repeat: repeat-x;
+    margin: 10px 0;
+}
+
+.cnt-form input {
+    width: 99%;
+    height: 37px;
+    background-image: url(../img/bg_input.png);
+    background-repeat: repeat-x;
+    margin-bottom: 20px;
+}
