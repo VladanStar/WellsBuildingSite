@@ -133,3 +133,23 @@ header .wrapp {
     color: var(--c-gray);
     margin-right: 3px;
 }
+/*========= Main ===============*/
+main .wrapp {
+    overflow: hidden;
+}
+
+main {
+    background-image: url(../img/wells_background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main h1 {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.h2-cnt {
+    padding: 0 110px;
+    text-transform: uppercase;
+}
