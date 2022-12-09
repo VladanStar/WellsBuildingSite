@@ -54,14 +54,14 @@ header {
 
 header .wrapp {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: space-between;
   align-items: center;
 }
 
 .nav-down {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   align-items: center;
   margin-top: 10px;
 }
@@ -119,7 +119,7 @@ header .wrapp {
 }
 .nav-up {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: flex-end;
   align-items: center;
 }
@@ -185,7 +185,7 @@ main h1 {
 
 .section-one-home {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   margin-top: -6px;
   background-color: var(--white);
 }
@@ -453,7 +453,7 @@ footer p span:first-child::after {
 
   nav.foot {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: center;
     flex-wrap: wrap;
   }
