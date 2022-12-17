@@ -348,7 +348,7 @@ main h1 {
 }
 
 label[for="message"] {
-  align-self: end;
+  align-self:end;
 }
 
 textarea {
